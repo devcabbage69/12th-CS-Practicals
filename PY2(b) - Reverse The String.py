@@ -1,7 +1,7 @@
 def reverse(str1):
     str2 = ''
     for i in str1:
-        str2 = i + str2
+        str2 += i
     return str2
-word = input("\n Enter a String: ")
-print("\n The Reverse of The String is: ", reverse(word))
+word = input("Enter a String: ")
+print("The Reverse of The String is: ", reverse(word))
